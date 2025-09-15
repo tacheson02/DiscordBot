@@ -12,7 +12,7 @@ key_path = os.path.join(os.path.dirname(__file__), key_file)
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = key_path
 from google.cloud import vision
 
-BOT_TOKEN = "MTQxNjU3ODA2NjQxNDY5ODYwNg.G2qAO7.UxGPc8WGpwtpsiM13LNo0oFuEBX7VZ2EC-dxqU"
+# BOT_TOKEN =
 HASH_FILE = "blockedImages.txt"
 SIMILARITY_THRESHOLD = 5
 
